@@ -1,0 +1,137 @@
+body {
+  color: black;
+  background: url("nature.jpg");
+}
+
+.home {
+  background: url("nature.jpg");
+  background-repeat: no-repeat;
+
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 300px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px black;
+  border-radius: 5px;
+}
+#h2 {
+  margin-top: 30px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 2em;
+  font-style: bold;
+  color: black;
+}
+
+.home form {
+  margin-left: 30%;
+  margin-top: 20px;
+}
+#topich1 {
+  margin-left: 40px;
+  color: black;
+  font-family: bold;
+  font-size: 3em;
+}
+.topic {
+  background-color: grey;
+  border: 2px solid gray;
+  margin-bottom: 25px;
+
+  box-shadow: 5px 5px 10px gray;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-radius: 10px;
+}
+#button {
+  margin-top: 25px;
+  padding: 10px 30px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-size: 1.2em;
+}
+#button:hover {
+  background-color: green;
+}
+
+#form1 {
+  margin: 0;
+  text-align: center;
+  align-items: center;
+}
+
+#text1 {
+  color: black;
+  font-size: 17px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px black;
+  width: 300px;
+  outline: none;
+}
+::-webkit-file-upload-button {
+  color: white;
+  background: #206a5d;
+  padding: 20px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 1px 0 1px 1px #6b4559;
+  outline: none;
+}
+::-webkit-file-upload-button:hover {
+  background: rgb(163, 11, 209);
+}
+
+.answer {
+  background-color: white;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-shadow: 5px 5px 10px black;
+  padding: 20px;
+
+  border-radius: 10px;
+}
+#li1 {
+  color: black;
+  font-size: 1.4em;
+  background: steelblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+#ansid {
+  font-size: 2.4em;
+  padding: 20px 10px;
+  border-radius: 5px;
+  color: black;
+  background: rgb(9, 224, 9);
+}
+#hr1 {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+#pid1 {
+  padding-left: 100px;
+  position: relative;
+  top: 50%;
+  font-size: 1.3em;
+  color: black;
+  font-weight: 100;
+  font-family: italic;
+}
+#download {
+  margin-left: 25px;
+  margin-top: 25px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(176, 12, 218);
+}

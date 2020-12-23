@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>OCR</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='OCR.css') }}" />
+  </head>
+  <body>
+    <div class="topic">
+      <h1 id="topich1">OCR(Optical Character Recognition)</h1>
+
+      <p id="pid1">
+        -Select the image to be uploaded , this website converts the image whick
+        has characters and produces a text file and then download the text
+        format of the image
+      </p>
+    </div>
+    <div class="home">
+      <h2 id="h2">Select The File(Image) To Be Executed</h2>
+      <hr id="hr1" />
+      <form
+        id="form1"
+        method="POST"
+        action="/upload"
+        enctype="multipart/form-data"
+      >
+        <h3>UPLOAD IMAGE</h3>
+        <input id="text1" name="inputFile" type="file" accept=".jpg" />
+        <br />
+        <input id="button" type="submit" value="Upload" />
+
+        <a id="download" href="{{url_for('download_file') }}">Download .TXT</a>
+        <br />
+      </form>
+    </div>
+
+    <div class="answer">
+      <h3 id="ansid">Some Important Words In Your File</h3>
+      <ul id="ul1">
+      {% for datas in data %}
+      <li id="li1">{{ datas }}</li>
+      {% endfor %}
+
+    </div>
+  </body>
+</html>
